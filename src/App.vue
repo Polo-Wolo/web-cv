@@ -2,11 +2,20 @@
     <div id="app">
 
 
-      <div class="font-normal">test</div>
+      <i data-feather="circle"></i>
 
       
     </div>
 </template>
+
+<script>
+import feather from "feather-icons";
+export default {
+	mounted() {
+		feather.replace()
+	}
+}
+</script>
 
 <style lang="scss">
 #app {
