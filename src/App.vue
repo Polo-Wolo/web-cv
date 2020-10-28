@@ -1,11 +1,14 @@
 <template>
-    <div id="app">
+	<div id="app">
 
-
-      <i data-feather="circle"></i>
-
-      
-    </div>
+		<button class="m-4 btn btn-magenta">CONTACT ME</button>
+		<button class="m-4 btn btn-ocean">CONTACT ME</button>
+		<button class="m-4 btn btn-peach">CONTACT ME</button>
+		<button class="m-4 btn btn-gradient-m-o">CONTACT ME</button>
+		<button class="m-4 btn btn-gradient-m-p">CONTACT ME</button>
+		<button class="m-4 btn btn-transparent">CONTACT ME</button>
+	
+	</div>
 </template>
 
 <script>
@@ -19,6 +22,6 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'Roboto', 'Ubuntu', Arial, sans-serif;
+font-family: 'Roboto', 'Montserrat', 'Ubuntu', Arial, sans-serif;
 }
 </style>

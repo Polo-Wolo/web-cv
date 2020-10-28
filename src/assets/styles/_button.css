@@ -1,0 +1,51 @@
+.btn {
+    @apply font-medium tracking-tight text-sm leading-5 outline-none rounded text-center px-4 py-2 w-auto transform duration-150 ease-in-out;
+}
+
+.btn-gradient-m-p {
+    @apply text-cultured-100 bg-gradient-to-r from-magenta-700 to-peach-700;
+}
+
+.btn-gradient-m-p:hover {
+    @apply from-magenta-800 to-peach-800;
+}
+
+.btn-gradient-m-o {
+    @apply text-cultured-100 bg-gradient-to-r from-magenta-700 to-ocean-700;
+}
+
+.btn-gradient-m-o:hover {
+    @apply from-magenta-800 to-ocean-800;
+}
+
+.btn-transparent {
+    @apply text-cultured-100 bg-cultured-100 bg-opacity-30;
+}
+
+.btn-transparent:hover {
+    @apply bg-opacity-40;
+}
+
+.btn-ocean {
+    @apply text-cultured-100 bg-ocean-700;
+}
+
+.btn-ocean:hover {
+    @apply bg-ocean-900;
+}
+
+.btn-peach {
+    @apply text-cultured-100 bg-peach-700;
+}
+
+.btn-peach:hover {
+    @apply bg-peach-900;
+}
+
+.btn-magenta {
+    @apply text-cultured-100 bg-magenta-700;
+}
+
+.btn-magenta:hover {
+    @apply bg-magenta-900;
+}
