@@ -1,23 +1,23 @@
 <template>
 	<div id="app">
 
-		<button class="m-4 btn btn-magenta">CONTACT ME</button>
-		<button class="m-4 btn btn-ocean">CONTACT ME</button>
-		<button class="m-4 btn btn-peach">CONTACT ME</button>
-		<button class="m-4 btn btn-gradient-m-o">CONTACT ME</button>
-		<button class="m-4 btn btn-gradient-m-p">CONTACT ME</button>
-		<button class="m-4 btn btn-transparent">CONTACT ME</button>
-	
+		<nav-bar logo='/img/svg/logo_paper_white.svg' home_link='#'></nav-bar>
+		
 	</div>
 </template>
 
 <script>
-import feather from "feather-icons";
-export default {
-	mounted() {
-		feather.replace()
+	import feather from "feather-icons";
+	import NavBar from './views/components/NavBar';
+
+	export default {
+		components: {
+            NavBar,
+        },
+		mounted() {
+			feather.replace()
+		}
 	}
-}
 </script>
 
 <style lang="scss">

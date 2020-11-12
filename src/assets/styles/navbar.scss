@@ -1,0 +1,27 @@
+.nav-list {
+    @apply w-full mx-auto my-6 flex flex-col items-center;
+    
+    li {
+        @apply cursor-pointer font-light text-xs text-cultured-1300 transform rotate-180;
+        writing-mode: vertical-rl;
+
+        a:hover{
+            @apply text-cultured-100;
+        }
+    }
+}
+
+
+.menu-vertical {
+    @apply tracking-tighter text-2xs text-cultured-100;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.burger-icon {
+    @apply h-8 w-full flex justify-center items-center;
+
+    span {
+        @apply block h-0.3 bg-cultured-100 w-8 transform rotate-90 rounded-full;
+    }
+}
