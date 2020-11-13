@@ -8,7 +8,7 @@
             </div>
         </a>
 
-        <div class="burger-icon mt-16">
+        <div class="burger-icon mt-12">
 			<span></span>
 		</div>
 
@@ -24,7 +24,7 @@
 
         <div class="h-full"></div>
 
-        <div class="burger-icon mb-16">
+        <div class="burger-icon mb-12">
 			<span class="block h-0.4 bg-ocean-900 w-8 transform rotate-90 rounded-full"></span>
 		</div>
 
